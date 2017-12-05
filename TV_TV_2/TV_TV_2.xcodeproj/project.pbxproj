@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66486C7C1FD685AD0079DCEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486C7B1FD685AD0079DCEA /* AppDelegate.m */; };
+		66486C7F1FD685AD0079DCEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486C7E1FD685AD0079DCEA /* ViewController.m */; };
+		66486C821FD685AD0079DCEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66486C801FD685AD0079DCEA /* Main.storyboard */; };
+		66486C841FD685AD0079DCEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66486C831FD685AD0079DCEA /* Assets.xcassets */; };
+		66486C871FD685AD0079DCEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66486C851FD685AD0079DCEA /* LaunchScreen.storyboard */; };
+		66486C8A1FD685AD0079DCEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486C891FD685AD0079DCEA /* main.m */; };
+		66486CB41FD685F80079DCEA /* EarnPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486C931FD685F80079DCEA /* EarnPointViewController.m */; };
+		66486CB51FD685F80079DCEA /* GivePointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486C951FD685F80079DCEA /* GivePointViewController.m */; };
+		66486CB61FD685F80079DCEA /* PointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486C971FD685F80079DCEA /* PointViewController.m */; };
+		66486CB71FD685F80079DCEA /* UsePointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486C991FD685F80079DCEA /* UsePointViewController.m */; };
+		66486CB81FD685F80079DCEA /* NestBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486C9C1FD685F80079DCEA /* NestBaseTableView.m */; };
+		66486CB91FD685F80079DCEA /* NestContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486C9E1FD685F80079DCEA /* NestContentTableViewCell.m */; };
+		66486CBA1FD685F80079DCEA /* NestItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486CA01FD685F80079DCEA /* NestItemViewController.m */; };
+		66486CBB1FD685F80079DCEA /* NestPageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486CA21FD685F80079DCEA /* NestPageContentView.m */; };
+		66486CBC1FD685F80079DCEA /* EarnPointViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486CA51FD685F80079DCEA /* EarnPointViewCell1.m */; };
+		66486CBD1FD685F80079DCEA /* EarnPointViewCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486CA71FD685F80079DCEA /* EarnPointViewCell2.m */; };
+		66486CBE1FD685F80079DCEA /* EarnPointViewCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486CA91FD685F80079DCEA /* EarnPointViewCell3.m */; };
+		66486CBF1FD685F80079DCEA /* EarnPointViewCell4.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486CAB1FD685F80079DCEA /* EarnPointViewCell4.m */; };
+		66486CC01FD685F80079DCEA /* GivePointViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486CAD1FD685F80079DCEA /* GivePointViewCell.m */; };
+		66486CC11FD685F80079DCEA /* PointSegmentTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486CAF1FD685F80079DCEA /* PointSegmentTitleView.m */; };
+		66486CC21FD685F80079DCEA /* PointViewHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486CB11FD685F80079DCEA /* PointViewHeadCell.m */; };
+		66486CC31FD685F80079DCEA /* UsePointViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66486CB31FD685F80079DCEA /* UsePointViewCell.m */; };
+		DB4AEA25F69AE9BF697C9ED7 /* libPods-TV_TV_2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAD918FC41C81D9F3837AE0 /* libPods-TV_TV_2.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39FECD3688F02461D7412060 /* Pods-TV_TV_2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TV_TV_2.release.xcconfig"; path = "Pods/Target Support Files/Pods-TV_TV_2/Pods-TV_TV_2.release.xcconfig"; sourceTree = "<group>"; };
+		44A111FC3AF3F5100B968B2E /* Pods-TV_TV_2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TV_TV_2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TV_TV_2/Pods-TV_TV_2.debug.xcconfig"; sourceTree = "<group>"; };
+		66486C771FD685AD0079DCEA /* TV_TV_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TV_TV_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66486C7A1FD685AD0079DCEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66486C7B1FD685AD0079DCEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66486C7D1FD685AD0079DCEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66486C7E1FD685AD0079DCEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66486C811FD685AD0079DCEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66486C831FD685AD0079DCEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66486C861FD685AD0079DCEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66486C881FD685AD0079DCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66486C891FD685AD0079DCEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66486C921FD685F80079DCEA /* EarnPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarnPointViewController.h; sourceTree = "<group>"; };
+		66486C931FD685F80079DCEA /* EarnPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarnPointViewController.m; sourceTree = "<group>"; };
+		66486C941FD685F80079DCEA /* GivePointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GivePointViewController.h; sourceTree = "<group>"; };
+		66486C951FD685F80079DCEA /* GivePointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GivePointViewController.m; sourceTree = "<group>"; };
+		66486C961FD685F80079DCEA /* PointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointViewController.h; sourceTree = "<group>"; };
+		66486C971FD685F80079DCEA /* PointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointViewController.m; sourceTree = "<group>"; };
+		66486C981FD685F80079DCEA /* UsePointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsePointViewController.h; sourceTree = "<group>"; };
+		66486C991FD685F80079DCEA /* UsePointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsePointViewController.m; sourceTree = "<group>"; };
+		66486C9B1FD685F80079DCEA /* NestBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestBaseTableView.h; sourceTree = "<group>"; };
+		66486C9C1FD685F80079DCEA /* NestBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestBaseTableView.m; sourceTree = "<group>"; };
+		66486C9D1FD685F80079DCEA /* NestContentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestContentTableViewCell.h; sourceTree = "<group>"; };
+		66486C9E1FD685F80079DCEA /* NestContentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestContentTableViewCell.m; sourceTree = "<group>"; };
+		66486C9F1FD685F80079DCEA /* NestItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestItemViewController.h; sourceTree = "<group>"; };
+		66486CA01FD685F80079DCEA /* NestItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestItemViewController.m; sourceTree = "<group>"; };
+		66486CA11FD685F80079DCEA /* NestPageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestPageContentView.h; sourceTree = "<group>"; };
+		66486CA21FD685F80079DCEA /* NestPageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestPageContentView.m; sourceTree = "<group>"; };
+		66486CA41FD685F80079DCEA /* EarnPointViewCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarnPointViewCell1.h; sourceTree = "<group>"; };
+		66486CA51FD685F80079DCEA /* EarnPointViewCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarnPointViewCell1.m; sourceTree = "<group>"; };
+		66486CA61FD685F80079DCEA /* EarnPointViewCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarnPointViewCell2.h; sourceTree = "<group>"; };
+		66486CA71FD685F80079DCEA /* EarnPointViewCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarnPointViewCell2.m; sourceTree = "<group>"; };
+		66486CA81FD685F80079DCEA /* EarnPointViewCell3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarnPointViewCell3.h; sourceTree = "<group>"; };
+		66486CA91FD685F80079DCEA /* EarnPointViewCell3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarnPointViewCell3.m; sourceTree = "<group>"; };
+		66486CAA1FD685F80079DCEA /* EarnPointViewCell4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarnPointViewCell4.h; sourceTree = "<group>"; };
+		66486CAB1FD685F80079DCEA /* EarnPointViewCell4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarnPointViewCell4.m; sourceTree = "<group>"; };
+		66486CAC1FD685F80079DCEA /* GivePointViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GivePointViewCell.h; sourceTree = "<group>"; };
+		66486CAD1FD685F80079DCEA /* GivePointViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GivePointViewCell.m; sourceTree = "<group>"; };
+		66486CAE1FD685F80079DCEA /* PointSegmentTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointSegmentTitleView.h; sourceTree = "<group>"; };
+		66486CAF1FD685F80079DCEA /* PointSegmentTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointSegmentTitleView.m; sourceTree = "<group>"; };
+		66486CB01FD685F80079DCEA /* PointViewHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointViewHeadCell.h; sourceTree = "<group>"; };
+		66486CB11FD685F80079DCEA /* PointViewHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointViewHeadCell.m; sourceTree = "<group>"; };
+		66486CB21FD685F80079DCEA /* UsePointViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsePointViewCell.h; sourceTree = "<group>"; };
+		66486CB31FD685F80079DCEA /* UsePointViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsePointViewCell.m; sourceTree = "<group>"; };
+		ACAD918FC41C81D9F3837AE0 /* libPods-TV_TV_2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TV_TV_2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66486C741FD685AD0079DCEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4AEA25F69AE9BF697C9ED7 /* libPods-TV_TV_2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F1257151FDD127130C7C7FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD918FC41C81D9F3837AE0 /* libPods-TV_TV_2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		247D30D1452EFFD70D7B90EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44A111FC3AF3F5100B968B2E /* Pods-TV_TV_2.debug.xcconfig */,
+				39FECD3688F02461D7412060 /* Pods-TV_TV_2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		66486C6E1FD685AD0079DCEA = {
+			isa = PBXGroup;
+			children = (
+				66486C791FD685AD0079DCEA /* TV_TV_2 */,
+				66486C781FD685AD0079DCEA /* Products */,
+				247D30D1452EFFD70D7B90EA /* Pods */,
+				1F1257151FDD127130C7C7FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66486C781FD685AD0079DCEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66486C771FD685AD0079DCEA /* TV_TV_2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66486C791FD685AD0079DCEA /* TV_TV_2 */ = {
+			isa = PBXGroup;
+			children = (
+				66486C7A1FD685AD0079DCEA /* AppDelegate.h */,
+				66486C7B1FD685AD0079DCEA /* AppDelegate.m */,
+				66486C7D1FD685AD0079DCEA /* ViewController.h */,
+				66486C7E1FD685AD0079DCEA /* ViewController.m */,
+				66486C901FD685F80079DCEA /* Point */,
+				66486C801FD685AD0079DCEA /* Main.storyboard */,
+				66486C831FD685AD0079DCEA /* Assets.xcassets */,
+				66486C851FD685AD0079DCEA /* LaunchScreen.storyboard */,
+				66486C881FD685AD0079DCEA /* Info.plist */,
+				66486C891FD685AD0079DCEA /* main.m */,
+			);
+			path = TV_TV_2;
+			sourceTree = "<group>";
+		};
+		66486C901FD685F80079DCEA /* Point */ = {
+			isa = PBXGroup;
+			children = (
+				66486C911FD685F80079DCEA /* Controller */,
+				66486CA31FD685F80079DCEA /* View */,
+			);
+			path = Point;
+			sourceTree = "<group>";
+		};
+		66486C911FD685F80079DCEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66486C961FD685F80079DCEA /* PointViewController.h */,
+				66486C971FD685F80079DCEA /* PointViewController.m */,
+				66486C921FD685F80079DCEA /* EarnPointViewController.h */,
+				66486C931FD685F80079DCEA /* EarnPointViewController.m */,
+				66486C941FD685F80079DCEA /* GivePointViewController.h */,
+				66486C951FD685F80079DCEA /* GivePointViewController.m */,
+				66486C981FD685F80079DCEA /* UsePointViewController.h */,
+				66486C991FD685F80079DCEA /* UsePointViewController.m */,
+				66486C9A1FD685F80079DCEA /* YYNestTableView */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		66486C9A1FD685F80079DCEA /* YYNestTableView */ = {
+			isa = PBXGroup;
+			children = (
+				66486C9B1FD685F80079DCEA /* NestBaseTableView.h */,
+				66486C9C1FD685F80079DCEA /* NestBaseTableView.m */,
+				66486C9D1FD685F80079DCEA /* NestContentTableViewCell.h */,
+				66486C9E1FD685F80079DCEA /* NestContentTableViewCell.m */,
+				66486CA11FD685F80079DCEA /* NestPageContentView.h */,
+				66486CA21FD685F80079DCEA /* NestPageContentView.m */,
+				66486C9F1FD685F80079DCEA /* NestItemViewController.h */,
+				66486CA01FD685F80079DCEA /* NestItemViewController.m */,
+			);
+			path = YYNestTableView;
+			sourceTree = "<group>";
+		};
+		66486CA31FD685F80079DCEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66486CA41FD685F80079DCEA /* EarnPointViewCell1.h */,
+				66486CA51FD685F80079DCEA /* EarnPointViewCell1.m */,
+				66486CA61FD685F80079DCEA /* EarnPointViewCell2.h */,
+				66486CA71FD685F80079DCEA /* EarnPointViewCell2.m */,
+				66486CA81FD685F80079DCEA /* EarnPointViewCell3.h */,
+				66486CA91FD685F80079DCEA /* EarnPointViewCell3.m */,
+				66486CAA1FD685F80079DCEA /* EarnPointViewCell4.h */,
+				66486CAB1FD685F80079DCEA /* EarnPointViewCell4.m */,
+				66486CAC1FD685F80079DCEA /* GivePointViewCell.h */,
+				66486CAD1FD685F80079DCEA /* GivePointViewCell.m */,
+				66486CAE1FD685F80079DCEA /* PointSegmentTitleView.h */,
+				66486CAF1FD685F80079DCEA /* PointSegmentTitleView.m */,
+				66486CB01FD685F80079DCEA /* PointViewHeadCell.h */,
+				66486CB11FD685F80079DCEA /* PointViewHeadCell.m */,
+				66486CB21FD685F80079DCEA /* UsePointViewCell.h */,
+				66486CB31FD685F80079DCEA /* UsePointViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66486C761FD685AD0079DCEA /* TV_TV_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66486C8D1FD685AD0079DCEA /* Build configuration list for PBXNativeTarget "TV_TV_2" */;
+			buildPhases = (
+				684801C7153FCD012F4AE099 /* [CP] Check Pods Manifest.lock */,
+				66486C731FD685AD0079DCEA /* Sources */,
+				66486C741FD685AD0079DCEA /* Frameworks */,
+				66486C751FD685AD0079DCEA /* Resources */,
+				71C13A4FE2F2CFAC85B311A3 /* [CP] Embed Pods Frameworks */,
+				BF2DCA32E5F733453FE459CB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TV_TV_2;
+			productName = TV_TV_2;
+			productReference = 66486C771FD685AD0079DCEA /* TV_TV_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66486C6F1FD685AD0079DCEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ccdc;
+				TargetAttributes = {
+					66486C761FD685AD0079DCEA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 66486C721FD685AD0079DCEA /* Build configuration list for PBXProject "TV_TV_2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66486C6E1FD685AD0079DCEA;
+			productRefGroup = 66486C781FD685AD0079DCEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66486C761FD685AD0079DCEA /* TV_TV_2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66486C751FD685AD0079DCEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66486C871FD685AD0079DCEA /* LaunchScreen.storyboard in Resources */,
+				66486C841FD685AD0079DCEA /* Assets.xcassets in Resources */,
+				66486C821FD685AD0079DCEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		684801C7153FCD012F4AE099 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		71C13A4FE2F2CFAC85B311A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TV_TV_2/Pods-TV_TV_2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF2DCA32E5F733453FE459CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TV_TV_2/Pods-TV_TV_2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66486C731FD685AD0079DCEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66486CBB1FD685F80079DCEA /* NestPageContentView.m in Sources */,
+				66486C7F1FD685AD0079DCEA /* ViewController.m in Sources */,
+				66486CBA1FD685F80079DCEA /* NestItemViewController.m in Sources */,
+				66486CB51FD685F80079DCEA /* GivePointViewController.m in Sources */,
+				66486C8A1FD685AD0079DCEA /* main.m in Sources */,
+				66486CB71FD685F80079DCEA /* UsePointViewController.m in Sources */,
+				66486CBD1FD685F80079DCEA /* EarnPointViewCell2.m in Sources */,
+				66486CC11FD685F80079DCEA /* PointSegmentTitleView.m in Sources */,
+				66486CB61FD685F80079DCEA /* PointViewController.m in Sources */,
+				66486CB91FD685F80079DCEA /* NestContentTableViewCell.m in Sources */,
+				66486C7C1FD685AD0079DCEA /* AppDelegate.m in Sources */,
+				66486CB81FD685F80079DCEA /* NestBaseTableView.m in Sources */,
+				66486CBF1FD685F80079DCEA /* EarnPointViewCell4.m in Sources */,
+				66486CBE1FD685F80079DCEA /* EarnPointViewCell3.m in Sources */,
+				66486CB41FD685F80079DCEA /* EarnPointViewController.m in Sources */,
+				66486CC01FD685F80079DCEA /* GivePointViewCell.m in Sources */,
+				66486CBC1FD685F80079DCEA /* EarnPointViewCell1.m in Sources */,
+				66486CC21FD685F80079DCEA /* PointViewHeadCell.m in Sources */,
+				66486CC31FD685F80079DCEA /* UsePointViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66486C801FD685AD0079DCEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66486C811FD685AD0079DCEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66486C851FD685AD0079DCEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66486C861FD685AD0079DCEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66486C8B1FD685AD0079DCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66486C8C1FD685AD0079DCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66486C8E1FD685AD0079DCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44A111FC3AF3F5100B968B2E /* Pods-TV_TV_2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33USAS7KQX;
+				INFOPLIST_FILE = TV_TV_2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.leo.TV-TV-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66486C8F1FD685AD0079DCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39FECD3688F02461D7412060 /* Pods-TV_TV_2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33USAS7KQX;
+				INFOPLIST_FILE = TV_TV_2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.leo.TV-TV-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66486C721FD685AD0079DCEA /* Build configuration list for PBXProject "TV_TV_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66486C8B1FD685AD0079DCEA /* Debug */,
+				66486C8C1FD685AD0079DCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66486C8D1FD685AD0079DCEA /* Build configuration list for PBXNativeTarget "TV_TV_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66486C8E1FD685AD0079DCEA /* Debug */,
+				66486C8F1FD685AD0079DCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66486C6F1FD685AD0079DCEA /* Project object */;
+}

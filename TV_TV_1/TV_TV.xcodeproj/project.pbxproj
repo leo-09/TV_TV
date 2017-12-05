@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03705287F2FC308F69AC61AA /* libPods-TV_TV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FC21D7F88D57D5B91B8BC9 /* libPods-TV_TV.a */; };
+		66DD9FD11FA86AA50093113C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DD9FD01FA86AA50093113C /* AppDelegate.m */; };
+		66DD9FD41FA86AA50093113C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DD9FD31FA86AA50093113C /* ViewController.m */; };
+		66DD9FD71FA86AA50093113C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66DD9FD51FA86AA50093113C /* Main.storyboard */; };
+		66DD9FD91FA86AA50093113C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DD9FD81FA86AA50093113C /* Assets.xcassets */; };
+		66DD9FDC1FA86AA50093113C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66DD9FDA1FA86AA50093113C /* LaunchScreen.storyboard */; };
+		66DD9FDF1FA86AA50093113C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DD9FDE1FA86AA50093113C /* main.m */; };
+		66DD9FE91FA86AA50093113C /* TV_TVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DD9FE81FA86AA50093113C /* TV_TVTests.m */; };
+		66DD9FF41FA86AA50093113C /* TV_TVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DD9FF31FA86AA50093113C /* TV_TVUITests.m */; };
+		66DDA0041FA86DEE0093113C /* NestBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DDA0031FA86DEE0093113C /* NestBaseTableView.m */; };
+		66DDA0071FA86E550093113C /* NestPageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DDA0061FA86E550093113C /* NestPageContentView.m */; };
+		66DDA00C1FA871480093113C /* NestSegmentTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DDA00B1FA871480093113C /* NestSegmentTitleView.m */; };
+		66DDA00F1FA873300093113C /* NestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DDA00E1FA873300093113C /* NestViewController.m */; };
+		66DDA0131FA873BE0093113C /* BottomItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DDA0121FA873BE0093113C /* BottomItemViewController.m */; };
+		66DDA0161FA874D50093113C /* NestContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DDA0151FA874D50093113C /* NestContentTableViewCell.m */; };
+		66DDA0191FA875DA0093113C /* NestItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DDA0181FA875DA0093113C /* NestItemViewController.m */; };
+		66DDA01C1FA876BB0093113C /* HeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DDA01B1FA876BB0093113C /* HeadTableViewCell.m */; };
+		66DDA01F1FA8BD200093113C /* BottomItemViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DDA01E1FA8BD1F0093113C /* BottomItemViewController2.m */; };
+		66DDA0221FA8BD310093113C /* BottomItemViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DDA0211FA8BD310093113C /* BottomItemViewController3.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66DD9FE51FA86AA50093113C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66DD9FC41FA86AA50093113C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66DD9FCB1FA86AA50093113C;
+			remoteInfo = TV_TV;
+		};
+		66DD9FF01FA86AA50093113C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66DD9FC41FA86AA50093113C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66DD9FCB1FA86AA50093113C;
+			remoteInfo = TV_TV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A52DA7DF1A01BDFC4887F54 /* Pods-TV_TV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TV_TV.release.xcconfig"; path = "Pods/Target Support Files/Pods-TV_TV/Pods-TV_TV.release.xcconfig"; sourceTree = "<group>"; };
+		21FC21D7F88D57D5B91B8BC9 /* libPods-TV_TV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TV_TV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DD9FCC1FA86AA50093113C /* TV_TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TV_TV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DD9FCF1FA86AA50093113C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66DD9FD01FA86AA50093113C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66DD9FD21FA86AA50093113C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66DD9FD31FA86AA50093113C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66DD9FD61FA86AA50093113C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66DD9FD81FA86AA50093113C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66DD9FDB1FA86AA50093113C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66DD9FDD1FA86AA50093113C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66DD9FDE1FA86AA50093113C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66DD9FE41FA86AA50093113C /* TV_TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TV_TVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DD9FE81FA86AA50093113C /* TV_TVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TV_TVTests.m; sourceTree = "<group>"; };
+		66DD9FEA1FA86AA50093113C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66DD9FEF1FA86AA50093113C /* TV_TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TV_TVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DD9FF31FA86AA50093113C /* TV_TVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TV_TVUITests.m; sourceTree = "<group>"; };
+		66DD9FF51FA86AA50093113C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66DDA0021FA86DEE0093113C /* NestBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestBaseTableView.h; sourceTree = "<group>"; };
+		66DDA0031FA86DEE0093113C /* NestBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestBaseTableView.m; sourceTree = "<group>"; };
+		66DDA0051FA86E550093113C /* NestPageContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestPageContentView.h; sourceTree = "<group>"; };
+		66DDA0061FA86E550093113C /* NestPageContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestPageContentView.m; sourceTree = "<group>"; };
+		66DDA00A1FA871480093113C /* NestSegmentTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestSegmentTitleView.h; sourceTree = "<group>"; };
+		66DDA00B1FA871480093113C /* NestSegmentTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestSegmentTitleView.m; sourceTree = "<group>"; };
+		66DDA00D1FA873300093113C /* NestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestViewController.h; sourceTree = "<group>"; };
+		66DDA00E1FA873300093113C /* NestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestViewController.m; sourceTree = "<group>"; };
+		66DDA0111FA873BE0093113C /* BottomItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomItemViewController.h; sourceTree = "<group>"; };
+		66DDA0121FA873BE0093113C /* BottomItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomItemViewController.m; sourceTree = "<group>"; };
+		66DDA0141FA874D50093113C /* NestContentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestContentTableViewCell.h; sourceTree = "<group>"; };
+		66DDA0151FA874D50093113C /* NestContentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestContentTableViewCell.m; sourceTree = "<group>"; };
+		66DDA0171FA875DA0093113C /* NestItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestItemViewController.h; sourceTree = "<group>"; };
+		66DDA0181FA875DA0093113C /* NestItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestItemViewController.m; sourceTree = "<group>"; };
+		66DDA01A1FA876BB0093113C /* HeadTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadTableViewCell.h; sourceTree = "<group>"; };
+		66DDA01B1FA876BB0093113C /* HeadTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadTableViewCell.m; sourceTree = "<group>"; };
+		66DDA01D1FA8BD1F0093113C /* BottomItemViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomItemViewController2.h; sourceTree = "<group>"; };
+		66DDA01E1FA8BD1F0093113C /* BottomItemViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomItemViewController2.m; sourceTree = "<group>"; };
+		66DDA0201FA8BD310093113C /* BottomItemViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomItemViewController3.h; sourceTree = "<group>"; };
+		66DDA0211FA8BD310093113C /* BottomItemViewController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomItemViewController3.m; sourceTree = "<group>"; };
+		AAEFBB8476FDA2FDB09A6F3A /* Pods-TV_TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TV_TV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TV_TV/Pods-TV_TV.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66DD9FC91FA86AA50093113C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03705287F2FC308F69AC61AA /* libPods-TV_TV.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DD9FE11FA86AA50093113C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DD9FEC1FA86AA50093113C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66DD9FC31FA86AA50093113C = {
+			isa = PBXGroup;
+			children = (
+				66DD9FCE1FA86AA50093113C /* TV_TV */,
+				66DD9FE71FA86AA50093113C /* TV_TVTests */,
+				66DD9FF21FA86AA50093113C /* TV_TVUITests */,
+				66DD9FCD1FA86AA50093113C /* Products */,
+				B8A5E740D7B502828BB8968F /* Pods */,
+				DD445398FCA2E8A68856D580 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66DD9FCD1FA86AA50093113C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66DD9FCC1FA86AA50093113C /* TV_TV.app */,
+				66DD9FE41FA86AA50093113C /* TV_TVTests.xctest */,
+				66DD9FEF1FA86AA50093113C /* TV_TVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66DD9FCE1FA86AA50093113C /* TV_TV */ = {
+			isa = PBXGroup;
+			children = (
+				66DDA0011FA86D790093113C /* YYNestTableView */,
+				66DDA0231FA8BD7F0093113C /* NestViewController */,
+				66DD9FCF1FA86AA50093113C /* AppDelegate.h */,
+				66DD9FD01FA86AA50093113C /* AppDelegate.m */,
+				66DD9FD21FA86AA50093113C /* ViewController.h */,
+				66DD9FD31FA86AA50093113C /* ViewController.m */,
+				66DD9FD51FA86AA50093113C /* Main.storyboard */,
+				66DD9FD81FA86AA50093113C /* Assets.xcassets */,
+				66DD9FDA1FA86AA50093113C /* LaunchScreen.storyboard */,
+				66DD9FDD1FA86AA50093113C /* Info.plist */,
+				66DD9FDE1FA86AA50093113C /* main.m */,
+			);
+			path = TV_TV;
+			sourceTree = "<group>";
+		};
+		66DD9FE71FA86AA50093113C /* TV_TVTests */ = {
+			isa = PBXGroup;
+			children = (
+				66DD9FE81FA86AA50093113C /* TV_TVTests.m */,
+				66DD9FEA1FA86AA50093113C /* Info.plist */,
+			);
+			path = TV_TVTests;
+			sourceTree = "<group>";
+		};
+		66DD9FF21FA86AA50093113C /* TV_TVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66DD9FF31FA86AA50093113C /* TV_TVUITests.m */,
+				66DD9FF51FA86AA50093113C /* Info.plist */,
+			);
+			path = TV_TVUITests;
+			sourceTree = "<group>";
+		};
+		66DDA0011FA86D790093113C /* YYNestTableView */ = {
+			isa = PBXGroup;
+			children = (
+				66DDA0021FA86DEE0093113C /* NestBaseTableView.h */,
+				66DDA0031FA86DEE0093113C /* NestBaseTableView.m */,
+				66DDA0051FA86E550093113C /* NestPageContentView.h */,
+				66DDA0061FA86E550093113C /* NestPageContentView.m */,
+				66DDA0171FA875DA0093113C /* NestItemViewController.h */,
+				66DDA0181FA875DA0093113C /* NestItemViewController.m */,
+				66DDA0141FA874D50093113C /* NestContentTableViewCell.h */,
+				66DDA0151FA874D50093113C /* NestContentTableViewCell.m */,
+				66DDA00A1FA871480093113C /* NestSegmentTitleView.h */,
+				66DDA00B1FA871480093113C /* NestSegmentTitleView.m */,
+			);
+			path = YYNestTableView;
+			sourceTree = "<group>";
+		};
+		66DDA0231FA8BD7F0093113C /* NestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				66DDA00D1FA873300093113C /* NestViewController.h */,
+				66DDA00E1FA873300093113C /* NestViewController.m */,
+				66DDA01A1FA876BB0093113C /* HeadTableViewCell.h */,
+				66DDA01B1FA876BB0093113C /* HeadTableViewCell.m */,
+				66DDA0111FA873BE0093113C /* BottomItemViewController.h */,
+				66DDA0121FA873BE0093113C /* BottomItemViewController.m */,
+				66DDA01D1FA8BD1F0093113C /* BottomItemViewController2.h */,
+				66DDA01E1FA8BD1F0093113C /* BottomItemViewController2.m */,
+				66DDA0201FA8BD310093113C /* BottomItemViewController3.h */,
+				66DDA0211FA8BD310093113C /* BottomItemViewController3.m */,
+			);
+			path = NestViewController;
+			sourceTree = "<group>";
+		};
+		B8A5E740D7B502828BB8968F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAEFBB8476FDA2FDB09A6F3A /* Pods-TV_TV.debug.xcconfig */,
+				1A52DA7DF1A01BDFC4887F54 /* Pods-TV_TV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD445398FCA2E8A68856D580 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21FC21D7F88D57D5B91B8BC9 /* libPods-TV_TV.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66DD9FCB1FA86AA50093113C /* TV_TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DD9FF81FA86AA50093113C /* Build configuration list for PBXNativeTarget "TV_TV" */;
+			buildPhases = (
+				9697068E109E8502654FA147 /* [CP] Check Pods Manifest.lock */,
+				66DD9FC81FA86AA50093113C /* Sources */,
+				66DD9FC91FA86AA50093113C /* Frameworks */,
+				66DD9FCA1FA86AA50093113C /* Resources */,
+				7543264174AC8E788E7D8E0C /* [CP] Embed Pods Frameworks */,
+				38B4E1BF6CA7DBDBF1C2BB92 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TV_TV;
+			productName = TV_TV;
+			productReference = 66DD9FCC1FA86AA50093113C /* TV_TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66DD9FE31FA86AA50093113C /* TV_TVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DD9FFB1FA86AA50093113C /* Build configuration list for PBXNativeTarget "TV_TVTests" */;
+			buildPhases = (
+				66DD9FE01FA86AA50093113C /* Sources */,
+				66DD9FE11FA86AA50093113C /* Frameworks */,
+				66DD9FE21FA86AA50093113C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66DD9FE61FA86AA50093113C /* PBXTargetDependency */,
+			);
+			name = TV_TVTests;
+			productName = TV_TVTests;
+			productReference = 66DD9FE41FA86AA50093113C /* TV_TVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66DD9FEE1FA86AA50093113C /* TV_TVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DD9FFE1FA86AA50093113C /* Build configuration list for PBXNativeTarget "TV_TVUITests" */;
+			buildPhases = (
+				66DD9FEB1FA86AA50093113C /* Sources */,
+				66DD9FEC1FA86AA50093113C /* Frameworks */,
+				66DD9FED1FA86AA50093113C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66DD9FF11FA86AA50093113C /* PBXTargetDependency */,
+			);
+			name = TV_TVUITests;
+			productName = TV_TVUITests;
+			productReference = 66DD9FEF1FA86AA50093113C /* TV_TVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66DD9FC41FA86AA50093113C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = ccdc;
+				TargetAttributes = {
+					66DD9FCB1FA86AA50093113C = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					66DD9FE31FA86AA50093113C = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66DD9FCB1FA86AA50093113C;
+					};
+					66DD9FEE1FA86AA50093113C = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66DD9FCB1FA86AA50093113C;
+					};
+				};
+			};
+			buildConfigurationList = 66DD9FC71FA86AA50093113C /* Build configuration list for PBXProject "TV_TV" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66DD9FC31FA86AA50093113C;
+			productRefGroup = 66DD9FCD1FA86AA50093113C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66DD9FCB1FA86AA50093113C /* TV_TV */,
+				66DD9FE31FA86AA50093113C /* TV_TVTests */,
+				66DD9FEE1FA86AA50093113C /* TV_TVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66DD9FCA1FA86AA50093113C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DD9FDC1FA86AA50093113C /* LaunchScreen.storyboard in Resources */,
+				66DD9FD91FA86AA50093113C /* Assets.xcassets in Resources */,
+				66DD9FD71FA86AA50093113C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DD9FE21FA86AA50093113C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DD9FED1FA86AA50093113C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38B4E1BF6CA7DBDBF1C2BB92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TV_TV/Pods-TV_TV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7543264174AC8E788E7D8E0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TV_TV/Pods-TV_TV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9697068E109E8502654FA147 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66DD9FC81FA86AA50093113C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DDA0131FA873BE0093113C /* BottomItemViewController.m in Sources */,
+				66DDA0221FA8BD310093113C /* BottomItemViewController3.m in Sources */,
+				66DDA0191FA875DA0093113C /* NestItemViewController.m in Sources */,
+				66DDA01C1FA876BB0093113C /* HeadTableViewCell.m in Sources */,
+				66DD9FD41FA86AA50093113C /* ViewController.m in Sources */,
+				66DD9FDF1FA86AA50093113C /* main.m in Sources */,
+				66DDA00F1FA873300093113C /* NestViewController.m in Sources */,
+				66DDA0071FA86E550093113C /* NestPageContentView.m in Sources */,
+				66DDA01F1FA8BD200093113C /* BottomItemViewController2.m in Sources */,
+				66DDA0161FA874D50093113C /* NestContentTableViewCell.m in Sources */,
+				66DDA0041FA86DEE0093113C /* NestBaseTableView.m in Sources */,
+				66DD9FD11FA86AA50093113C /* AppDelegate.m in Sources */,
+				66DDA00C1FA871480093113C /* NestSegmentTitleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DD9FE01FA86AA50093113C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DD9FE91FA86AA50093113C /* TV_TVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DD9FEB1FA86AA50093113C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DD9FF41FA86AA50093113C /* TV_TVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66DD9FE61FA86AA50093113C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66DD9FCB1FA86AA50093113C /* TV_TV */;
+			targetProxy = 66DD9FE51FA86AA50093113C /* PBXContainerItemProxy */;
+		};
+		66DD9FF11FA86AA50093113C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66DD9FCB1FA86AA50093113C /* TV_TV */;
+			targetProxy = 66DD9FF01FA86AA50093113C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66DD9FD51FA86AA50093113C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66DD9FD61FA86AA50093113C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66DD9FDA1FA86AA50093113C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66DD9FDB1FA86AA50093113C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66DD9FF61FA86AA50093113C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66DD9FF71FA86AA50093113C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66DD9FF91FA86AA50093113C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAEFBB8476FDA2FDB09A6F3A /* Pods-TV_TV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K39ZA87Q27;
+				INFOPLIST_FILE = TV_TV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.leo.TV-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66DD9FFA1FA86AA50093113C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A52DA7DF1A01BDFC4887F54 /* Pods-TV_TV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K39ZA87Q27;
+				INFOPLIST_FILE = TV_TV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.leo.TV-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66DD9FFC1FA86AA50093113C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TV_TVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.leo.TV-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TV_TV.app/TV_TV";
+			};
+			name = Debug;
+		};
+		66DD9FFD1FA86AA50093113C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TV_TVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.leo.TV-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TV_TV.app/TV_TV";
+			};
+			name = Release;
+		};
+		66DD9FFF1FA86AA50093113C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TV_TVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.leo.TV-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TV_TV;
+			};
+			name = Debug;
+		};
+		66DDA0001FA86AA50093113C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TV_TVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.leo.TV-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TV_TV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66DD9FC71FA86AA50093113C /* Build configuration list for PBXProject "TV_TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DD9FF61FA86AA50093113C /* Debug */,
+				66DD9FF71FA86AA50093113C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DD9FF81FA86AA50093113C /* Build configuration list for PBXNativeTarget "TV_TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DD9FF91FA86AA50093113C /* Debug */,
+				66DD9FFA1FA86AA50093113C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DD9FFB1FA86AA50093113C /* Build configuration list for PBXNativeTarget "TV_TVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DD9FFC1FA86AA50093113C /* Debug */,
+				66DD9FFD1FA86AA50093113C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DD9FFE1FA86AA50093113C /* Build configuration list for PBXNativeTarget "TV_TVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DD9FFF1FA86AA50093113C /* Debug */,
+				66DDA0001FA86AA50093113C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66DD9FC41FA86AA50093113C /* Project object */;
+}
