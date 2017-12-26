@@ -1,0 +1,4 @@
+platform:ios ,’8.0’
+target ‘TV_TV_3’ do
+pod 'Masonry'
+end
