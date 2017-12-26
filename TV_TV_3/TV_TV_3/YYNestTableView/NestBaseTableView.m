@@ -31,7 +31,7 @@
             return YES;
         }
     } else {
-        return YES;
+        return [super pointInside:point withEvent:event];
     }
 }
 
